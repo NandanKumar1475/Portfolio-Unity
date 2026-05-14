@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { ExperienceTimeline } from "@/components/ExperienceTimeline";
 import { SectionHeading } from "@/components/SectionHeading";
 import { SkillGrid } from "@/components/SkillGrid";
@@ -40,16 +41,34 @@ export default function AboutPage() {
               </p>
             </div>
           </Card>
-          <Card>
-            <h2 className="text-2xl font-semibold text-white">Strengths</h2>
-            <ul className="mt-5 space-y-4">
-              {strengths.map((strength) => (
-                <li key={strength} className="rounded-2xl border border-white/10 bg-white/[0.04] p-4 text-sm leading-6 text-slate-300">
-                  {strength}
-                </li>
-              ))}
-            </ul>
-          </Card>
+          <div className="grid gap-8">
+            <Card className="overflow-hidden p-0">
+              <div className="relative aspect-[4/5] min-h-[380px]">
+                <Image
+                  src="/images/nandan-profile-optimized.jpg"
+                  alt="Nandan Kumar profile photo"
+                  fill
+                  className="object-cover object-[62%_48%]"
+                  sizes="(min-width: 1024px) 420px, 90vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent" />
+                <div className="absolute bottom-5 left-5 right-5 rounded-2xl border border-white/10 bg-slate-950/75 p-4 backdrop-blur">
+                  <p className="text-sm font-semibold text-white">Nandan Kumar</p>
+                  <p className="mt-1 text-xs text-slate-300">Unity XR Developer / AR VR Simulation Engineer</p>
+                </div>
+              </div>
+            </Card>
+            <Card>
+              <h2 className="text-2xl font-semibold text-white">Strengths</h2>
+              <ul className="mt-5 space-y-4">
+                {strengths.map((strength) => (
+                  <li key={strength} className="rounded-2xl border border-white/10 bg-white/[0.04] p-4 text-sm leading-6 text-slate-300">
+                    {strength}
+                  </li>
+                ))}
+              </ul>
+            </Card>
+          </div>
         </div>
         <section className="mt-20">
           <SectionHeading

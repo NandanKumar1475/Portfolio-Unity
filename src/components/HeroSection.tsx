@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowDownToLine, ArrowRight, Send } from "lucide-react";
@@ -71,26 +72,19 @@ export function HeroSection() {
             <div className="relative aspect-[4/3] rounded-3xl border border-white/10 bg-slate-950/60 p-5">
               <div className="grid h-full grid-rows-[1fr_auto] gap-5">
                 <div className="relative overflow-hidden rounded-2xl border border-cyan-300/20 bg-[#05111d]">
-                  <div className="absolute inset-0 bg-[linear-gradient(rgba(34,211,238,0.12)_1px,transparent_1px),linear-gradient(90deg,rgba(34,211,238,0.12)_1px,transparent_1px)] bg-[size:42px_42px]" />
-                  <motion.div
-                    className="absolute left-[20%] top-[40%] h-24 w-24 rounded-2xl border border-cyan-200/50 bg-cyan-300/10 shadow-[0_0_38px_rgba(34,211,238,0.38)]"
-                    animate={{ rotate: [0, 4, 0], y: [0, -8, 0] }}
-                    transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                  <Image
+                    src="/images/nandan-profile-optimized.jpg"
+                    alt="Nandan Kumar profile photo"
+                    fill
+                    className="object-cover object-[62%_28%]"
+                    priority
+                    sizes="(min-width: 1024px) 480px, 90vw"
                   />
-                  <motion.div
-                    className="absolute right-[18%] top-[18%] h-36 w-36 rounded-full border border-blue-200/50 bg-blue-400/10 shadow-[0_0_48px_rgba(59,130,246,0.35)]"
-                    animate={{ scale: [1, 1.04, 1], x: [0, -8, 0] }}
-                    transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-                  />
-                  <div className="absolute bottom-8 left-8 right-8 rounded-2xl border border-white/10 bg-slate-950/80 p-4 backdrop-blur">
-                    <p className="text-sm font-semibold text-white">Interaction Pipeline</p>
-                    <div className="mt-3 grid grid-cols-4 gap-2 text-[11px] text-slate-300">
-                      {["Input", "Validate", "Simulate", "Feedback"].map((item) => (
-                        <span key={item} className="rounded-full bg-white/[0.06] px-2 py-2 text-center">
-                          {item}
-                        </span>
-                      ))}
-                    </div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
+                  <div className="absolute inset-0 bg-[linear-gradient(135deg,rgba(34,211,238,0.16),transparent_42%,rgba(37,99,235,0.16))]" />
+                  <div className="absolute bottom-4 left-4 max-w-[230px] rounded-2xl border border-white/10 bg-slate-950/70 p-3 backdrop-blur">
+                    <p className="text-sm font-semibold text-white">Unity XR Developer</p>
+                    <p className="mt-1 text-xs leading-5 text-slate-300">AR/VR simulation engineer.</p>
                   </div>
                 </div>
                 <div className="grid grid-cols-3 gap-3 text-center">
