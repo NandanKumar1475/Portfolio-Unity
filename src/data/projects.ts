@@ -133,7 +133,7 @@ export const projects: Project[] = [
       "/projects/chem-lab-2.svg",
       "/projects/chem-lab-3.svg",
     ],
-    demoVideoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    demoVideoUrl: "https://www.youtube.com/watch?v=ir8XRSZr2j0",
     githubUrl: "https://github.com/",
     featured: true,
     category: "Simulation",

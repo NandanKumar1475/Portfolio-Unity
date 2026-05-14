@@ -3,12 +3,12 @@ import { BriefcaseBusiness, GitBranch, Mail } from "lucide-react";
 export const socials = [
   {
     label: "GitHub",
-    href: "https://github.com/",
+    href: "https://github.com/NandanKumar1475",
     icon: GitBranch,
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/nandan-kumar-82989b1b8/",
     icon: BriefcaseBusiness,
   },
   {
