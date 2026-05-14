@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Screw simulator workflow architecture">
+  <rect width="1200" height="800" fill="#04101b"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="88" fill="#f8fafc" font-size="40" font-weight="700">Modular XR Workflow</text>
+    <g fill="#071827" stroke="#22d3ee" stroke-width="2">
+      <rect x="150" y="175" width="220" height="92" rx="18"/><rect x="490" y="175" width="220" height="92" rx="18"/><rect x="830" y="175" width="220" height="92" rx="18"/>
+      <rect x="320" y="405" width="220" height="92" rx="18"/><rect x="660" y="405" width="220" height="92" rx="18"/>
+    </g>
+    <g fill="#e0f2fe" font-size="24" font-weight="700">
+      <text x="260" y="228">Input Layer</text><text x="600" y="228">Interaction Manager</text><text x="940" y="228">Simulation Engine</text><text x="430" y="458">Feedback Layer</text><text x="770" y="458">UI Layer</text>
+    </g>
+    <g stroke="#67e8f9" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M370 221h110"/><path d="M710 221h110"/><path d="M900 270 500 398"/><path d="M940 270 795 398"/><path d="M540 451h110"/>
+    </g>
+  </g>
+</svg>

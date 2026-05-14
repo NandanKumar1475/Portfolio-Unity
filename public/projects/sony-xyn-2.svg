@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Spatial Reality Display validation workflow">
+  <rect width="1200" height="800" fill="#03070d"/>
+  <circle cx="930" cy="180" r="220" fill="#0ea5e9" opacity=".1"/>
+  <circle cx="260" cy="620" r="240" fill="#2563eb" opacity=".1"/>
+  <g transform="translate(160 150)" font-family="Arial, sans-serif">
+    <rect width="880" height="500" rx="30" fill="#071827" stroke="#1e3a5f"/>
+    <text x="440" y="82" fill="#f8fafc" font-size="36" font-weight="700" text-anchor="middle">Hardware Validation Checklist</text>
+    <g fill="#0f172a" stroke="#22d3ee" stroke-width="2">
+      <rect x="80" y="155" width="220" height="96" rx="18"/>
+      <rect x="330" y="155" width="220" height="96" rx="18"/>
+      <rect x="580" y="155" width="220" height="96" rx="18"/>
+      <rect x="205" y="315" width="220" height="96" rx="18"/>
+      <rect x="455" y="315" width="220" height="96" rx="18"/>
+    </g>
+    <g fill="#dbeafe" font-size="21" font-weight="700" text-anchor="middle">
+      <text x="190" y="209">SDK / Plugin</text>
+      <text x="440" y="209">Display Setup</text>
+      <text x="690" y="209">3D Viewing</text>
+      <text x="315" y="369">PC Constraints</text>
+      <text x="565" y="369">Unity Readiness</text>
+    </g>
+    <g stroke="#67e8f9" stroke-width="5" fill="none" stroke-linecap="round">
+      <path d="M300 203h30M550 203h30M420 252l-80 60M520 252l40 60"/>
+    </g>
+  </g>
+</svg>

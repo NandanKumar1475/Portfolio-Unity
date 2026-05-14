@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Screw insertion validation states">
+  <rect width="1200" height="800" fill="#03070d"/>
+  <g opacity=".16" stroke="#38bdf8"><path d="M100 120h1000M100 250h1000M100 380h1000M100 510h1000M100 640h1000"/><path d="M150 80v640M350 80v640M550 80v640M750 80v640M950 80v640"/></g>
+  <rect x="160" y="145" width="880" height="510" rx="28" fill="#08111f" stroke="#1e3a5f"/>
+  <path d="M246 534h708" stroke="#334155" stroke-width="18" stroke-linecap="round"/>
+  <g transform="translate(260 225)">
+    <circle cx="190" cy="210" r="76" fill="#0f172a" stroke="#22d3ee" stroke-width="5"/>
+    <path d="M190 155v110M135 210h110" stroke="#67e8f9" stroke-width="14" stroke-linecap="round"/>
+    <rect x="435" y="122" width="110" height="176" rx="18" fill="#111827" stroke="#64748b"/>
+    <path d="M245 210h260" stroke="#38bdf8" stroke-width="5" stroke-dasharray="18 14"/>
+    <path d="M336 176 370 210 336 244" fill="none" stroke="#38bdf8" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <text x="84" y="88" fill="#f8fafc" font-size="38" font-weight="700">Insertion Axis Feedback</text>
+    <text x="180" y="693" fill="#93c5fd" font-size="25">Collision zones, angle tolerance, insertion depth, resistance state</text>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="XR interaction sandbox">
+  <rect width="1200" height="800" fill="#03070d"/>
+  <g opacity=".14" stroke="#38bdf8"><path d="M0 635h1200M0 550h1200M0 465h1200"/><path d="M190 800 560 250M430 800 670 250M670 800 780 250M910 800 890 250"/></g>
+  <g transform="translate(175 155)">
+    <rect x="50" y="300" width="780" height="80" rx="16" fill="#111827" stroke="#334155"/>
+    <rect x="130" y="130" width="130" height="130" rx="18" fill="#0f172a" stroke="#22d3ee" stroke-width="4"/>
+    <circle cx="450" cy="185" r="72" fill="#0f172a" stroke="#60a5fa" stroke-width="4"/>
+    <path d="M606 136h150v96H606z" fill="#0f172a" stroke="#22d3ee" stroke-width="4"/>
+    <path d="M240 195h138M522 185h84" stroke="#67e8f9" stroke-width="6" stroke-dasharray="14 12"/>
+    <path d="M680 280v78" stroke="#67e8f9" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#e2e8f0">
+    <text x="78" y="92" font-size="42" font-weight="700">XR Interaction Sandbox</text>
+    <text x="78" y="138" font-size="22" fill="#94a3b8">Grab, ray, socket, UI, and teleport interaction patterns</text>
+  </g>
+</svg>

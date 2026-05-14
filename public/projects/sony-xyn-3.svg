@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="mocopi motion capture export pipeline">
+  <rect width="1200" height="800" fill="#04101b"/>
+  <g opacity=".12" stroke="#38bdf8">
+    <path d="M80 150h1040M80 260h1040M80 370h1040M80 480h1040M80 590h1040"/>
+  </g>
+  <g transform="translate(135 145)" font-family="Arial, sans-serif">
+    <text x="465" y="0" fill="#f8fafc" font-size="38" font-weight="700" text-anchor="middle">mocopi PC Motion Pipeline</text>
+    <g fill="#071827" stroke="#22d3ee" stroke-width="3">
+      <circle cx="120" cy="240" r="62"/>
+      <rect x="280" y="178" width="170" height="124" rx="20"/>
+      <rect x="560" y="178" width="170" height="124" rx="20"/>
+      <rect x="820" y="178" width="170" height="124" rx="20"/>
+    </g>
+    <g fill="#e0f2fe" font-size="22" font-weight="700" text-anchor="middle">
+      <text x="120" y="248">Sensors</text>
+      <text x="365" y="248">Capture</text>
+      <text x="645" y="236">BVH / FBX</text>
+      <text x="645" y="264">Export</text>
+      <text x="905" y="248">Unity</text>
+    </g>
+    <g stroke="#67e8f9" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M184 240h86"/>
+      <path d="M452 240h96"/>
+      <path d="M732 240h76"/>
+      <path d="M252 214l28 26-28 26M530 214l28 26-28 26M790 214l28 26-28 26"/>
+    </g>
+    <text x="465" y="410" fill="#94a3b8" font-size="23" text-anchor="middle">Workflow tested for capture, export, handoff, and XR production use</text>
+  </g>
+</svg>

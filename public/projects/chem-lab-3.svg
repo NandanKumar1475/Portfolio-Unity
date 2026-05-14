@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Chemistry simulation reaction states">
+  <rect width="1200" height="800" fill="#03070d"/>
+  <g transform="translate(160 160)" font-family="Arial, sans-serif">
+    <rect width="880" height="480" rx="28" fill="#071827" stroke="#1e3a5f"/>
+    <text x="440" y="78" fill="#f8fafc" font-size="36" font-weight="700" text-anchor="middle">Experiment State Machine</text>
+    <g fill="#0f172a" stroke="#22d3ee" stroke-width="2">
+      <rect x="70" y="180" width="180" height="86" rx="16"/><rect x="350" y="180" width="180" height="86" rx="16"/><rect x="630" y="180" width="180" height="86" rx="16"/>
+    </g>
+    <g fill="#dbeafe" font-size="22" font-weight="700" text-anchor="middle">
+      <text x="160" y="232">Interact</text><text x="440" y="232">Validate</text><text x="720" y="232">React</text>
+    </g>
+    <g stroke="#67e8f9" stroke-width="5" fill="none" stroke-linecap="round"><path d="M252 223h92"/><path d="M532 223h92"/><path d="M436 270v92"/><path d="M440 362c-142 0-242-32-300-96"/></g>
+    <text x="440" y="408" fill="#94a3b8" font-size="22" text-anchor="middle">Instructional UI listens to simulation events</text>
+  </g>
+</svg>

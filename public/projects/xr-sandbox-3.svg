@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="XR socket interaction workflow">
+  <rect width="1200" height="800" fill="#03070d"/>
+  <g transform="translate(160 170)">
+    <rect width="880" height="460" rx="28" fill="#071827" stroke="#1e3a5f"/>
+    <rect x="110" y="170" width="160" height="160" rx="22" fill="#0f172a" stroke="#64748b" stroke-width="4"/>
+    <rect x="616" y="170" width="160" height="160" rx="22" fill="#0f172a" stroke="#22d3ee" stroke-width="5" stroke-dasharray="18 12"/>
+    <path d="M295 250h292" stroke="#67e8f9" stroke-width="7" stroke-linecap="round" stroke-dasharray="18 14"/>
+    <path d="m570 215 45 35-45 35" fill="none" stroke="#67e8f9" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="440" y="92" font-family="Arial, sans-serif" fill="#f8fafc" font-size="36" font-weight="700" text-anchor="middle">Socket Placement Validation</text>
+    <text x="440" y="400" font-family="Arial, sans-serif" fill="#94a3b8" font-size="23" text-anchor="middle">Snap target, state change, feedback event</text>
+  </g>
+</svg>
