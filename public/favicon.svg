@@ -1,6 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="18" fill="#03070d"/>
-  <circle cx="46" cy="18" r="12" fill="#22d3ee" opacity=".28"/>
-  <path d="M17 43V20h5l20 23h-6L22 27v16z" fill="#e0f2fe"/>
-  <path d="M42 20v23h-5L17 20h6l14 16V20z" fill="#22d3ee"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Nandan Kumar Unity XR favicon">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#03111f"/>
+      <stop offset=".55" stop-color="#06172a"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="14" y1="13" x2="50" y2="51" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)"/>
+  <path d="M32 10 50 20.5v21L32 52 14 41.5v-21z" fill="#071827" stroke="url(#edge)" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M32 10v20.5M14 20.5l18 10 18-10M32 30.5V52" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+  <circle cx="32" cy="31" r="7.5" fill="#020617" stroke="#93c5fd" stroke-width="2"/>
+  <path d="M25 43V22h3.7l10.6 13.8V22H43v21h-3.7L28.7 29.2V43z" fill="#e0f2fe"/>
+  <path d="M48 14a7 7 0 0 1 7 7" fill="none" stroke="#67e8f9" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M16 50a7 7 0 0 1-7-7" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round"/>
 </svg>
